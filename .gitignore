@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# Build
+build/
+android/app/build/
+android/build/
+android/.gradle/
+
+# Other IDEs
+.idea/
+.vscode/
+
+# Dart / Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.dart_tool/
+
+*.iml
+*.log
+
+ios/
+linux/
+macos/
+web/
+windows/

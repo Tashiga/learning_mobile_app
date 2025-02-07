@@ -1,0 +1,47 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Evite l'utilisation de 'print' dans le code (pour ne pas laisser des instructions de débogage)
+    avoid_print: true
+
+    # Préfère l'utilisation des constructeurs 'const' là où c'est possible
+    prefer_const_constructors: true
+
+    # Préfère l'utilisation de 'final' pour les champs immuables
+    prefer_final_fields: true
+
+    # Alerte si tu utilises des variables non utilisées
+    unused_local_variable: true
+
+    # Évite les variables non utilisées
+    avoid_unused_constructor_parameters: true
+
+    # Encourage l’utilisation de la syntaxe async/await
+    await_only_futures: true
+
+    # Encourage l'utilisation des constantes (au lieu de valeurs magiques)
+    prefer_const_literals_to_create_immutables: true
+
+    # Vérifie l'orthographe de certains mots dans le code
+    check_spelling_in_code: true
+
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
+    # Préférez les fichiers à un seul import par ligne
+    one_import_per_line: true
+
+    # Encourage à organiser les imports (en enlevant les imports inutilisés)
+    avoid_duplicate_imports: true
+
+    # Encourage à organiser les classes, méthodes et champs dans un ordre logique
+    sort_constructors_first: true
+
+
+
+
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+
